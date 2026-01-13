@@ -2,7 +2,7 @@
 
 import Image from 'next/image';
 import styles from './page.module.css';
-import RazorpayButton from './RazorpayButton';
+import WhatsAppButton from './WhatsAppButton';
 import Navbar from './Navbar';
 
 export default function SaaSWebinarPage() {
@@ -27,9 +27,7 @@ export default function SaaSWebinarPage() {
                         Discover the Secrets to MicroSaaS Success – Join Our Free Live Webinar and build your passive income stream with AI.
                     </p>
 
-                    <div className={styles.pricing}>
-                        Free Webinar · ₹49 Seat Confirmation
-                    </div>
+                    Free Webinar · Join The Community
 
                     <div className={styles.eventDetails}>
                         <div className={styles.detailItem}>
@@ -47,7 +45,7 @@ export default function SaaSWebinarPage() {
                     </div>
 
                     <div className={styles.buttonWrapper}>
-                        <RazorpayButton />
+                        <WhatsAppButton />
                     </div>
                 </div>
 
@@ -104,9 +102,9 @@ export default function SaaSWebinarPage() {
                     <h2 style={{ fontSize: '64px', fontWeight: 900, marginBottom: '20px' }}>Join the Movement</h2>
                     <p style={{ fontSize: '24px', opacity: 0.7, marginBottom: '40px' }}>Limited seats available for the 18th Jan session.</p>
                     <div className={styles.finalButtonWrapper}>
-                        <RazorpayButton />
+                        <WhatsAppButton />
                     </div>
-                    <p style={{ marginTop: '40px', fontSize: '14px', opacity: 0.4 }}>* Non-refundable ₹49 seat confirmation fee.</p>
+
                 </div>
             </section>
 

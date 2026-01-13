@@ -10,7 +10,7 @@ export default function Navbar() {
                 <div className={styles.navLinks}>
                     <a href="#speaker">Speaker</a>
                     <a href="#outcomes">Outcomes</a>
-                    <a href="#agenda">Agenda</a>
+
                 </div>
                 <div className={styles.navCta}>
                     <a href="#register" className={styles.navButton}>Join Now</a>
